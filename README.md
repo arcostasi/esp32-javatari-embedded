@@ -4,7 +4,7 @@ This project is an Atari 2600 cross platform emulator embedded in an Atari CX40 
 
 The Atari 2600 (also known as Video Computer System or simply VCS) is a second-generation console released by Atari on September 11, 1977. It retailed for $199 and had a 6507 CPU at 1.19 MHz with 128 bytes of RAM.
 
-As the Atari 2600 cross platform emulator was used the [Javatari.js](https://github.com/ppeccin/javatari.js) handcraft by [ppeccino](https://github.com/ppeccin) and together with the image ROMs that can be embedded in the ESP32 using him SPIFFS file system.
+As the Atari 2600 cross platform emulator was used the [Javatari.js](https://github.com/ppeccin/javatari.js) handcraft by [ppeccino](https://github.com/ppeccin) and together with the image ROMs that can be embedded in the ESP32 using SPIFFS file system.
 
 <img src="https://github.com/arcostasi/esp32-javatari-embedded/blob/master/doc/pic1.jpg?raw=true" width="600">
 
@@ -55,6 +55,7 @@ Remove the plastic base on the bottom of the ESP32 NodeMCU to better secure the 
 <img src="https://github.com/arcostasi/esp32-javatari-embedded/blob/master/doc/step4.jpg?raw=true" width="600">
 
 ### Step 5:
+
 Make the power and signal connections as shown below.
 
 Note: Change the IR receiver pin from 15 to 34 (White Wire), I made this change later for better compatibility of IR library. If you do not want to change the connection, change the pinout from 34 to 15 in the main.cpp source code on line 5.
@@ -62,6 +63,8 @@ Note: Change the IR receiver pin from 15 to 34 (White Wire), I made this change 
 <img src="https://github.com/arcostasi/esp32-javatari-embedded/blob/master/doc/step5.jpg?raw=true" width="600">
 
 ### Step 6:
+
+Solder the power wires to the battery as the picture below:
 
 <img src="https://github.com/arcostasi/esp32-javatari-embedded/blob/master/doc/step6.jpg?raw=true" width="600">
 
