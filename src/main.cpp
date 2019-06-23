@@ -106,7 +106,7 @@ void mountPageIndexEmulator() {
 
   // Favicon route assembly
   server.on("/favicon.ico", HTTP_GET, [](AsyncWebServerRequest *request) {
-    request->send(SPIFFS, "/favicon.ico", "application/javascript");
+    request->send(SPIFFS, "/favicon.ico", "image/x-icon");
   });
 
   // Mount Javatari.js embedded of the developer: Paulo Peccin @ppeccin
@@ -116,7 +116,7 @@ void mountPageIndexEmulator() {
 
   // Mount the background image (Atari logo)
   server.on("/logo.jpg", HTTP_GET, [](AsyncWebServerRequest *request) {
-    request->send(SPIFFS, "/logo.jpg", "application/javascript");
+    request->send(SPIFFS, "/logo.jpg", "image/jpeg");
   });
 }
 
