@@ -4,11 +4,11 @@ This project is an Atari 2600 cross platform emulator embedded in an Atari CX40 
 
 The Atari 2600 (also known as Video Computer System or simply VCS) is a second-generation console released by Atari on September 11, 1977. It retailed for $199 and had a 6507 CPU at 1.19 MHz with 128 bytes of RAM.
 
-As the Atari 2600 cross platform emulator was used the [Javatari.js](https://github.com/ppeccin/javatari.js) handcraft by [ppeccino](https://github.com/ppeccin) and together with the image ROMs that can be embedded in the ESP32 using SPIFFS file system.
+As the Atari 2600 cross platform emulator was used the [Javatari.js](http://javatari.org/) created by [Paulo Peccin](https://twitter.com/ppeccin) and together with the image ROMs that can be embedded in the ESP32 using SPIFFS file system.
 
 <img src="https://github.com/arcostasi/esp32-javatari-embedded/blob/master/doc/pic1.jpg?raw=true" width="600">
 
-Pitfall! is a video game designed by David Crane for the Atari 2600 and released by Activision in 1982.
+Pitfall! is a video game designed by [David Crane](https://twitter.com/pitfallcreator) for the Atari 2600 and released by Activision in 1982.
 
 You can launch the emulator and load ROMs with a single link. And now you can play Atari 2600 games with your CX40 joystick.
 
@@ -118,7 +118,7 @@ I hope it worked out well and you can play your favorite games using your Atari 
 - Replace the joystick batteries (2x AAA 1.5v alkaline) with a cell phone rechargeable battery, approximately 3.3 to 5 volts.
 
 ## Credits
-- Paulo Peccino ([@ppeccino](https://twitter.com/ppeccin)) for his amazing cross platform Atari 2600 emulator [Javatari.js](https://github.com/ppeccin/javatari.js).
+- Paulo Peccino ([@ppeccino](https://twitter.com/ppeccin)) for his amazing cross platform Atari 2600 emulator [Javatari.js](http://javatari.org/).
 
 - David Crane ([@PitfallCreator](https://twitter.com/pitfallcreator)) for his adorable Pitfall game
 illustrated in the [picture 1](https://github.com/arcostasi/esp32-javatari-embedded/blob/master/doc/pic1.jpg?raw=true).
